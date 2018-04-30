@@ -11,12 +11,18 @@ def table(nb, max=10):
     1 * nb jusqu'à max * nb"""
     i = 0
     while i < max:
-        print(i + 1, "*", nb, "=", (i + 1) * nb)
         i += 1
+        print(i, " * ", nb, "=", (i * nb))
+
+
+
 
 # test de la fonction table
 if __name__ == "__main__":
-    table(4)
+    table(4)    #ici indenté après la fonction de dessus
+
+
+
 
 # On met le programme en pause pour éviter qu'il ne se referme (Windows)
 os.system("pause")
