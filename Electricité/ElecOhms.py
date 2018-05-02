@@ -1,4 +1,4 @@
-
+import os
 
 V=input("Quel est le voltage ? ")
 A=input("Quel est l'ampérage ?")
@@ -23,16 +23,4 @@ finally:
     print("la résistance est de ",(R)," Ohms")
 
 
-
-
-
-
-
-# except type_d_Exception_ou_d_Erreur :
-    # pass
-    # On continue malgré tout
-
-# Ci-dessous : Toutes erreurs confondues :
-
-# except TypedError as ErrorConstatee:
-#     print("Voici l'erreur à identifier : ", ErrorConstatee)
+os.system("pause")

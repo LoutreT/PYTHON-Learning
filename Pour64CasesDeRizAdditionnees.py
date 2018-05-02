@@ -15,11 +15,12 @@ def TableDe64CasesDeRiz(nb,x) :
         y=(x * 2)
         print("ligne ",i," : ",x," x ",2," = ",y)
         x=y
+        z+=y
 
-        # print("le total des grains de riz est de ",z)
+        if i == 64 :
+            print("le total des grains de riz est de ",z)
 
 TableDe64CasesDeRiz(2,64)
-
 
 
 
